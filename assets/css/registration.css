@@ -1,0 +1,95 @@
+	
+	/*Body styling*/
+
+body {
+	background: white;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+	/*Logo*/
+#logo {
+	margin-top: 2em;
+}
+
+	/*Header Styling*/
+header {
+	background-color: #45F0DF;	
+}
+
+ /*Form stlying*/
+.my-form {
+	background-color: #8380b6;
+	margin-top: 1em;
+	max-width: 35em;
+	padding:  4em 3em 3em 3em;
+	border-radius: 10%;
+}
+
+ /*Forget Password form*/
+.pass-my-form {
+	background-color: #8380b6;
+	margin-top: 1em;
+	max-width: 35em;
+	padding:  4em 3em 3em 3em;
+	border-radius: 6%;
+}
+
+#task_form {
+	max-width: 40em;
+}
+
+ /*Social media signin*/
+.social-media {
+	width: 4em;
+	margin: 0 0.1em;
+}
+
+#sign-in {
+	margin-top: 1em;
+	padding: 2.5em;
+} 
+
+#lefty {
+	text-align: left;
+}
+
+	/*Text styling for link in form*/
+.link{
+	color: #fff;
+}
+
+.divider {
+	margin-top: -2em;
+}
+
+.div-signup{
+	margin-top: -1.5em;
+}
+
+ /*Text Styling for forget password footer*/
+.pass-link {
+	color: #FFFFFF;
+}
+
+}
+#submit {
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+ /* Footer*/
+footer {
+	padding: 0.6em;
+	margin-top: 5em;
+}
+
+/*Footer div*/
+#foot {
+	background-color: #C2CAE8;
+}
+
+ /*Forget Password Footer div*/
+#pass-foot {
+	padding: 0.6em;
+	margin-top: 19em;
+}

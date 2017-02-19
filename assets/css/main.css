@@ -1,0 +1,167 @@
+	/*Body*/
+body {
+	background: url(../img/upgrade.jpg) center center fixed; 
+	background-size: cover;
+	width: 100%;
+  	height: auto;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: small;
+	color: #111d4a;
+}
+
+#works {
+	margin-top: 2.5em;
+	margin-right: 1.5em; 
+	padding: 0.75em;
+}
+
+article {
+font-size: 1.5em;
+color: #111d4a;
+text-align: left;
+/*background-color: white;*/
+padding-left: 0em;
+color: #fff;
+}
+
+ /*Landing Page Work with me Button and Hover*/
+.button {
+	background-color: #45f0df;
+	border: 1px solid #45f0df;
+	color: #111d4a;
+	margin: 3em;
+	margin-left: 2em;
+	display: inline-flex;
+}
+
+.button:hover {
+	color: #45f0df;
+	background-color: #111d4a;
+	border: 1px solid #111d4a;
+}
+
+ /* Landing page Learn More Button*/
+#home-btn {
+	margin-top: 3em;
+	display: inline-flex;
+	color: gold;
+}
+
+	/*General Button styling*/
+.butt {
+	background-color: #45f0df;
+	border: 1px solid #45f0df;
+	color: #111D4a;
+}
+
+.butt:hover {
+	background-color: #45f0df;
+	border: 1px solid #111D4a;
+	color: #45f0df;
+}
+
+
+
+/* Stlying of div intro section*/
+#info {
+	padding-top: 15em;
+	padding-left: 12em;
+	/*padding-left: 0;*/
+	max-width: 50em;
+}
+
+/* Stlying of Intro text*/
+#large {
+	font-size: 2.2em;
+	font-weight: bold;
+}
+ 
+ /*Styling Footer*/
+#foot {
+	background-color: #C2CAE8;
+}
+
+footer {
+	padding: 0.6em;
+	/*margin-top: 2em*/;
+}
+
+.reminder {
+	background-color: #111d4a;
+	color: #c2cae8;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #0000ff;
+    font-size: 2em; 
+}
+.popuptext {
+	font-size: 0.8em;
+}
+
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 20em;
+    background-color: #45f0df;
+    color: #111D4a;
+    text-align: center;
+    border-radius: 6px;
+    padding: 12px 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #45f0df transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}

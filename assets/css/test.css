@@ -1,0 +1,17 @@
+#row_one {
+	border: 1px solid black;
+	height: 30px;
+}
+
+#row_two {
+	border: 1px solid green;
+}
+
+#col_one {
+	border: 1px solid red;
+	max-width: 12em;
+}
+
+#col_two {
+	border: 1px solid blue;
+}

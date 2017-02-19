@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ 	<title>Bradsa | Home Page</title>
+
+ 	 <!-- Css Sheets -->
+ 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+ 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+ 	 <!-- favicon icon -->
+	<link rel="icon"  href="assets/img/bradsa_logo.ico">
+ </head>
+
+ <body>
+ 	<div class="container-fluid">
+ 		<header class="row-fluid">
+
+ 				<!-- Logo -->
+ 			<div id="logo" class=" navbar-brand col-md-6"><a href="index.html"><img src="assets/img/brasa_logo_dark.png"></a></div>
+ 		</header>
+
+ 			<!-- Intro Text Section -->
+ 		 <section class="row-fluid">
+ 		 	<div id="info" class="span-8 offset4">
+ 		 		<article>
+					<p id="large" class="text-uppercase">Capture ideas, manage tasks, and work smarter.</p>
+					<p>Join millions of people who organize their work projects, household lists, and grocery shopping. With a simple interface, it is super easy to manage your tasks.</p>
+				</article>
+
+				  <!-- Work Smart and Learn More Button -->
+				<div>
+					<a href="login.html"><button class="btn btn-lg button">Work Smart NOW</button></a>
+					<!-- <a href="#" id="home-btn"><h3>Learn More</h3></a> -->
+					<div class="popup" onclick="myFunction()">Learn More
+  						<span class="popuptext" id="myPopup">You have joined the hundreds of thousands of others who are using Bradsa to make life easier. Bradsa lets you keep track of your tasks,  draw up a schedule, and share projects with anyone around you.<br><br>
+
+						Bradsa currently supports a number of operating system platforms including iPhone, iPad, Mac App, Apple Watch, Android phone, Android Wear, Web, Chrome Extension, Chrome App, and Firefox Extension. With these 10 platforms, we believe Bradsa can always help you achieve more everyday!</span>
+					</div>
+				</div>
+ 		 	</div>
+ 		</section>	
+ 	</div>
+ 	<div id="foot">
+		<center>
+			<footer>
+				All Right Reserved. Bradsa 2016&copy;
+			</footer>
+		</center>
+	</div>
+
+	<script>
+		// When the user clicks on <div>, open the popup
+		function myFunction() {
+    	var popup = document.getElementById('myPopup');
+    	popup.classList.toggle('show');
+		}
+	</script>
+
+ </body>
+ </html>

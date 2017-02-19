@@ -1,0 +1,24 @@
+* {
+	font-family: "Century Gothic", sans-serif !important;
+	color: #fff;
+}
+
+body {
+	background-color: #d45eac;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin: auto;
+	text-align: right;
+}
+
+#tb1List thead {
+	background: orange;
+	color: #fff;
+}
+#hidArea input {
+	background-color: black;
+}
